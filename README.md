@@ -1,8 +1,8 @@
 <h1>Instruções de Execução da Aplicação</h1>
-Este guia contém as instruções necessárias para configurar e executar a aplicação, que consiste em um frontend em JavaScript e um backend em Flask, com um banco de dados MySQL.
+<p>Este guia contém as instruções necessárias para configurar e executar a aplicação, que consiste em um frontend em JavaScript e um backend em Flask, com um banco de dados MySQL.</p>
 
 <h1>Pré-requisitos</h1>
-Certifique-se de ter o seguinte instalado em sua máquina:
+<p>Certifique-se de ter o seguinte instalado em sua máquina:</p>
 
 <li>Python 3</li>
 <li>Flask (pode ser instalado via pip).</li>
@@ -13,8 +13,8 @@ Certifique-se de ter o seguinte instalado em sua máquina:
 
 <h1>Configuração do Backend</h1>
 
-Navegue até o diretório do backend:
-cd crud/server
+<p>Navegue até o diretório do backend:</p>
+<p></p>cd crud/server</p>
 
 <h1>Instale as dependências do Python:</h1>
 
@@ -31,5 +31,5 @@ cd crud/server
 
 <h1>Inicie o servidor Flask:</h1>
 
-python app.py
-O servidor irá rodar por padrão em http://localhost:5000.
+<p>python app.py</p>
+<p></p>O servidor irá rodar por padrão em http://localhost:5000.</p>
