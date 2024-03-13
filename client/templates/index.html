@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD de Pessoas</title>
+    <link rel="stylesheet" href="../service/styles.css">
+    <script type="module" src="{{ url_for('static', filename='js/dados.js') }}"></script>
+    <script type="module" src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</head>
+<body>
+    <h1>Cadastrar</h1>
+    <form id="registrationForm" action="{{ url_for('handle_post')}}" method="POST">
+        <input type="text" id="name" placeholder="Nome" name="name" required>
+        <input type="text" id="surname" placeholder="Sobrenome" name="surname" required>
+        <input type="text" id="address" placeholder="Cep" name="address" required>
+        <input type="text" id="street" placeholder="Rua" name="street" required>
+        <input type="text" id="city" placeholder="Cidade" name="city" required>
+        <input type="text" id="uf" placeholder="Estado" name="uf" required>
+        <input type="text" id="neighborhood" placeholder="Bairro" name="neighborhood" required>
+        <input type="text" id="street-number" placeholder="Número" name="street-number" required>
+        <input type="text" id="complement" placeholder="Complemento" name="complement">
+        <input type="text" id="profession" placeholder="Profissão" name="profession" required>
+        <button type="submit" id="button" name="cadastrar">Cadastrar</button>
+    </form>
+
+    <h1>Alterar</h1>
+    <form id="alterarForm" method="POST">
+        <input type="text" id="id" placeholder="id" name="id" required>
+        <button type="submit" id="button" name="deletar">Deletar</button>
+        <button type="submit" id="button" name="atualizar">Atualizar</button>
+        <button type="submit" id="button" name="Buscar">Buscar</button>
+    </form>
+
+ 
+</body>
+</html>
