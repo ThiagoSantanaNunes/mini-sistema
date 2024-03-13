@@ -19,15 +19,9 @@
 <h1>Instale as dependências do Python:</h1>
 
 <li>blinker                1.7.0</li>
-<li>click                  8.1.7</li>
-<li>colorama               0.4.6</li>
 <li>Flask                  3.0.2</li>
-<li>itsdangerous           2.1.2</li>
-<li>Jinja2                 3.1.3</li>
-<li>MarkupSafe             2.1.5</li>
 <li>mysql-connector-python 8.3.0</li>
 <li>pip                    24.0</li>
-<li>Werkzeug               3.0.1</li>
 
 <h1>Inicie o servidor Flask:</h1>
 
