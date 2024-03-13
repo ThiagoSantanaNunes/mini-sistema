@@ -26,4 +26,4 @@
 <h1>Inicie o servidor Flask:</h1>
 
 <p>python app.py</p>
-<p></p>O servidor irá rodar por padrão em http://localhost:5000.</p>
+<p></p>O servidor irá rodar por padrão em http://127.0.0.1:5000.</p>
